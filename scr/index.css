@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(176, 224, 230, 0.418);
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    height: 100%;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+h1:hover{
+    color: rgb(255, 49, 152);
+}
+.main{
+    max-height: 80%;
+    background-color: #007699;
+    padding: 10px 30px 10px 30px;
+    color: whitesmoke;
+    font-size: 2em;
+    text-align: center;
+    text-transform: capitalize;
+}
+.main h1{
+    display: inline;
+}
+.main-svg{
+    max-width: 9em;
+    min-width: 4em;
+}
+.main-dialogue{
+    width: 100%;
+}
+.button-svg{
+    width: 20px;
+}
+
+.customer-support{
+    align-self: bottom;
+    padding: 10px 30px 10px 30px;
+    margin-bottom: auto;
+}
+.button{
+    background-color: powderblue;
+    text-transform: capitalize;
+    min-height: 50px;
+    justify-content: center;
+    border: 2px solid #007699;
+    margin: 10px 5px;
+    max-width: 33vpw;
+}
+.button:hover{
+    box-shadow: 5px 5px #007699;
+}
+.level2 ul{
+    display: inline;
+    list-style-type: none;
+}
+.bad{
+    background-color: rgb(255, 49, 152);
+    color: whitesmoke;
+}
+.end-container{
+    width: 100vpw;
+}
+.end-button{
+    width: 40%;
+    margin: 10px 20px;
+}
+
+#main-button{
+    display: inline;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    color: whitesmoke;
+    font-size: large;
+    font-weight: bold;
+}
+.level2{
+    display: none;
+}
+
+/* end of all the dialogue buttons */
+
+
+.issues.show{
+    display: inline;
+}
+.spoilt.show{
+    display: inline;
+}
+.stuck.show{
+    display: inline;
+}
+.pray.show{
+    display: inline;
+    width: 95%;
+}
+.level-copy{
+    display: inline;
+}
+@media screen and (min-width: 375px) {
+    .issues{
+        display: none;
+    }
+    .spoilt{
+        display: none;
+    }
+    .stuck{
+        display: none;
+    }
+    .pray{
+        display: none;
+    }
+}
